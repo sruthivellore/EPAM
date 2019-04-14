@@ -30,13 +30,11 @@ public class solution {
         Scanner in = new Scanner(System.in);
         int q = in.nextInt();
         for(int a0 = 0; a0 < q; a0++){
-
             int n = in.nextInt();
             ArrayList<ArrayList<Integer>> adj = new ArrayList<ArrayList<Integer>>(n);
             for (int i = 0; i < n; i++) {
                 adj.add(new ArrayList<Integer>());
             }
-
             int m = in.nextInt();
             for(int a1 = 0; a1 < m; a1++){
                 int u = in.nextInt() - 1;
